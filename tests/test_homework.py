@@ -47,4 +47,5 @@ def test_homework():
     assert result.get("by", 0) == 3, "Incorrect count for 'by'"
     assert result.get("algorithms", 0) == 2, "Incorrect count for 'algorithms'"
     assert result.get("analysis", 0) == 4, "Incorrect count for 'analysis'"
+    
 
